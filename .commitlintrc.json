@@ -1,0 +1,15 @@
+{
+  "extends": ["@commitlint/config-conventional"],
+  "rules": {
+    "type-enum": [2, "always", ["ci", "chore", "docs", "ticket","feat", "fix", "perf", "refactor", "revert", "style"]],
+    "subject-case": [1, "always", ["lower-case", "upper-case", "start-case", "sentence-case"]],
+    "scope-enum": [2, "always", ["auth", "ui", "api", "config", "deps", "ci", "test"]],
+    "references-empty": [2, "never"]
+  },
+  "parserPreset": {
+    "parserOpts": {
+      "issuePrefixes": ["#"],
+      "noteKeywords": ["#"]
+    }
+  }
+}
