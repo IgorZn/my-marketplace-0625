@@ -1,6 +1,8 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 - Video [here](https://www.youtube.com/watch?v=6fXNWBFPfRM&ab_channel=CodeWithAntonio)
 - shadcn [here](https://ui.shadcn.com/)
+- source [here](https://github.com/IgorZn/my-marketplace-0625)
+- neobrutalism [here](https://www.neobrutalism.dev/) and [here](https://github.com/antfu/neobrutalism)
 
 ## Getting Started
 

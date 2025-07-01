@@ -1,15 +1,30 @@
 import {Button} from "@/components/ui/button";
+import {Input} from "@/components/ui/input";
+import {Progress} from "@/components/ui/progress";
+import {Textarea} from "@/components/ui/textarea";
+import {Checkbox} from "@/components/ui/checkbox";
 
 
 export default function Home() {
-  return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <Button>
-        Hello World
-      </Button>
-        <p className={"text-3xl font-bold text-black"}>
-            Hellp P
-        </p>
-    </div>
-  );
+    return (
+        <div className="flex flex-col gap-y-4 m-2">
+            <div>
+                <Button>
+                    Hello World
+                </Button>
+            </div>
+            <div>
+                <Input placeholder="Hello World" />
+            </div>
+            <div>
+                <Progress value={50} />
+            </div>
+            <div>
+                <Textarea placeholder={'Im a textarea'} />
+            </div>
+            <div>
+                <Checkbox />
+            </div>
+        </div>
+    );
 }
