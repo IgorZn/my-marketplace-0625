@@ -3,6 +3,8 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 - shadcn [here](https://ui.shadcn.com/)
 - source [here](https://github.com/IgorZn/my-marketplace-0625)
 - neobrutalism [here](https://www.neobrutalism.dev/) and [here](https://github.com/antfu/neobrutalism)
+- coderabbit [here](https://www.coderabbit.io/)
+
 
 ## Getting Started
 
