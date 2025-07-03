@@ -37,8 +37,6 @@ const navbarItems = [
   { href: '/', children: 'Home' },
   { href: '/about', children: 'About' },
   { href: '/contact', children: 'Contact' },
-  { href: '/login', children: 'Login' },
-  { href: '/register', children: 'Register' },
 ];
 
 function Navbar() {
@@ -52,6 +50,26 @@ function Navbar() {
         {navbarItems.map(item => (
           <NavbarItem key={item.href} {...item} isActive={item.href === pathname}></NavbarItem>
         ))}
+      </div>
+      <div className={'hidden lg:flex'}>
+        <Button
+          asChild
+          variant={'secondary'}
+          className={
+            'border-l border-t-0 border-b-0 px-12 h-full bg-white hover:bg-amber-400 transition-colors text-lg'
+          }
+        >
+          <Link href={'/login'}>Login</Link>
+        </Button>
+        <Button
+          asChild
+          variant={'secondary'}
+          className={
+            'border-l border-t-0 border-b-0 px-12 h-full bg-emerald-200 hover:bg-amber-400 hover:text-black transition-colors text-lg'
+          }
+        >
+          <Link href={'/register'}>Start selling</Link>
+        </Button>
       </div>
     </nav>
   );
